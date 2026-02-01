@@ -1,0 +1,17 @@
+/* AUTH (LOGIN / SIGNUP) */
+.auth-container {
+  max-width: 420px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.06);
+  padding: 28px;
+  border-radius: 14px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 30px rgba(11,7,20,0.6);
+}
+.auth-title { font-size: 1.4rem; margin-bottom: 12px; font-weight: 700; }
+.auth-form { display:flex; flex-direction:column; gap:12px; }
+.input { padding:12px 14px; border-radius:10px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:var(--text); }
+.input::placeholder { color:var(--muted); }
+.auth-actions { display:flex; gap:12px; margin-top:8px; }
+.link-btn { background:transparent; border:none; color:var(--violet); cursor:pointer; text-decoration:underline; }
+.auth-note { color:var(--muted); font-size:0.9rem; margin-top:8px; text-align:center; }
